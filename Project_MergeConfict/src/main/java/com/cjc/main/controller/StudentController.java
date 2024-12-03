@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class StudentController {
 @Autowired StudentService se;
-	@postMapping("/saveStudentData)
+	@PostMapping("/saveStudentData)
 	public ResponseEntity<Student> onSaveData(Student int id)
 	{
             
